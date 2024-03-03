@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<!---------------------navigeshon bar--------------------->
+<body>
+    <div class="background">
+    <div id="heder">
+        <div class="container">
+            <nav>
+                <img src="logo5.png" class="logo">
+                <ul id="sidemenu">
+                <li><a href="#heder">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">serveces</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contactus</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>ul/ux designer</p>
+                <h1>I am <span> Thilina Tharaka </span><br> from sri Lanka</h1>
+            </div>
+        </div>   
+    </div>
+</div>
+
+<!-------------------about--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="background2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p>I'm Thilina Tharaka, a passionate software engineer driven by innovation and problem-solving. With a knack for crafting elegant solutions, I thrive in the dynamic world of technology. Whether architecting systems, coding algorithms, or exploring new advancements, I bring dedication and creativity to every project. Beyond coding, I enjoy unwinding with a good book or hiking in nature. I believe in continuous learning and collaboration, always eager to contribute to the tech community. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('exprience')">exprience</p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills"> 
+                        <ul>
+                            <li><span>UI/UX</span><br>Desing web/app interfaces</li>
+                            <li><span>Web Development</span><br>Desing web/app interfaces</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="exprience"> 
+                        <ul>
+                            <li><span>2022 - Current</span><br>UI/UX Desing Training.</li>
+                            <li><span>2019 - Current</span><br>Graphic Designing.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education"> 
+                        <ul>
+                            <li><span>2016</span><br>Ordinary Level.</li>
+                            <li><span>2020</span><br>Advanced Level.</li>
+                            <li><span>2022 </span><br>Bsc(hons) software Engineering.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------SERVICES-------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Desing</h2>
+                    <p>Welcome to my web design portfolio! Explore captivating websites crafted with creativity and precision, blending aesthetic appeal with seamless functionality to deliver immersive online experiences.</p>
+                    <a href="#">learn more</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Desing</h2>
+                    <p>Discover intuitive interfaces and seamless user experiences in my UI/UX design portfolio. From wireframes to prototypes, explore designs that prioritize user needs and elevate digital interactions.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Desing</h2>
+                    <p>Explore my app design portfolio for captivating mobile experiences. From sleek interfaces to seamless navigation, discover designs crafted to engage users and elevate your brand's presence on iOS and Android platforms.</p>
+                    <a href="#">learn more</a>
+                </div>
+        </div>
+    </div>
+
+    <!-----------------portfolio---------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Explore global talent connections with this app. Download from the Play Store to unlock collaboration opportunities and access skilled professionals for your projects.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Explore global talent connections with this app. Download from the Play Store to unlock collaboration opportunities and access skilled professionals for your projects.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Explore global talent connections with this app. Download from the Play Store to unlock collaboration opportunities and access skilled professionals for your projects.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <!---------------contact----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>thilinatharaka13334@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>0786096984</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/thilina.tharaka.37"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://lk.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="CV1.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" cols="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form> 
+                </div>
+            </div>  
+        </div>
+
+        <!----------copyrigth------------>
+        <div class="copyright">
+            <p>Copyright &copy; Thilina</p>
+        </div>
+    </div>
+
+
+
+
+
+
+<!--------------up to button----------------->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-up"></i></button>
+
+
+<!---=----------up to button js--------------->   
+    <script>
+    
+         let mybutton = document.getElementById("myBtn");
+         window.onscroll = function() {scrollFunction()};
+    
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+            }
+            
+            function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+
+
+
+
+
+
+<!-----------------About Me js---------------->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link"); /*remove style */
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab"); /*rmoove */
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab"); /* add other colom style */
+        }
+
+    </script>
+
+<!---------------side menu bar------------------>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script> 
+
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxmy4tvx-2VJf68IAgVTJl8slzJzaPWNFM1D2c3PAVc9L6fBNHIQ6XeFiSYbY9uyfbo/exec';
+const form = document.forms['submit-to-google-sheet'];
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+      if (response.ok) {
+        console.log('Form data submitted successfully');
+        alert('Form data submitted successfully');
+      } else {
+        throw new Error('Failed to submit form data');
+      }
+      setTimeout(function(){
+          alert(''); // Clear the alert message
+        }, 1000);
+      form.reset()
+    })
+    .catch(error => {
+      console.error('Error submitting form data:', error);
+      alert('Error submitting form data. Please try again later.');
+      setTimeout(function(){
+          alert('');
+        }, 2000);
+      form.reset()
+    
+    });
+});
+
+  </script>
+
+  </script>
+
+
+
+
+    
+</body>
+</html>
